@@ -1,0 +1,6 @@
+framework module KpengCountDownCycle {
+  umbrella header "KpengCountDownCycle-umbrella.h"
+
+  export *
+  module * { export * }
+}

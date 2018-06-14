@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KpengCountDownCycle_Example' do
+  pod 'KpengCountDownCycle', :path => '../'
+
+  target 'KpengCountDownCycle_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
